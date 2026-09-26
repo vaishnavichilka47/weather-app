@@ -19,4 +19,4 @@ A simple weather application built using **HTML, CSS, and JavaScript** that fetc
 
 ## Live Demo
 
-[View Weather App](https://youcanweatherme.netlify.app/)
+[View Weather App](https://calculatewther.netlify.app/)
