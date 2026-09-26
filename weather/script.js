@@ -9,7 +9,7 @@ document.querySelector('button').addEventListener('click',()=>{
         element.innerHTML = `Today's Temperature: ${data.current.temp_c}`;
      }
 
-    const prom = fetch(`http://api.weatherapi.com/v1/current.json?key=3d556f444a0a4180a9e113022261508&q=${place}&aqi=yes`)
+    const prom = fetch(`https://api.weatherapi.com/v1/current.json?key=3d556f444a0a4180a9e113022261508&q=${place}&aqi=yes`)
      
     prom
     .then(response=>response.json())
